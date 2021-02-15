@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+<link href="Form_stylesheet.css" rel= "stylesheet">
+</head>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&display=swap" rel="stylesheet">
+
+<body>
+
+<div class="fitbg"> 
+  <img class="bkimg" src="https://hosting.photobucket.com/images/i/jamie1964two/516808-PIS804-912.jpg">
+  <a href="https://www.freepik.com/vectors/background">Background vector created by rawpixel.com - www.freepik.com</a> </div>
+  <main id="main">
+  <div class="h1"><h1 id="title"> Share your personal info<h1>
+    <p id="description"> Why keep your personal details to yourself? Freely upload your details to us.</p>
+  </div>
+    
+    <form id="survey-form">
+      <fieldset>
+        <legend>Forgo your privacy</legend>
+        
+        <br>
+      
+             <div class="labeldiv">
+      
+        
+        <label id="name-label" for:"name"> Name:</label>
+         <input id="name" type="text" placeholder="Name" required name="name">
+               
+        </div>
+        
+        <div class="labeldiv">
+      
+      <label id="email-label" for:"email"> Email:</label>
+         <input id="email" type="email" placeholder="JohnSmith@email.com" name="email" required>
+      
+        </div>
+          <div class="labeldiv">
+          
+          <label id="number-label" for:"number"> Mobile number:</label>
+         <input id="number" type="number" placeholder="0123456789" max="9999999999" min="10000000" name="mobile">
+    
+                    </div>
+          <div class="labeldiv">
+            
+            
+              <label id="dropdown-label" for:"telephone"> Public threat level:</label>
+            
+                  <select id="dropdown" name="threat" required>
+            
+  <datalist id="threat">
+    <option value="mild">Mild</option>
+    <option value="moderate">Moderate</option>
+    <option value="high">High</option>
+    <option value="extreme">Extreme</option>
+  </datalist>
+            </select>
+                    </div>
+          <div class="labeldiv">
+            
+        <div style="margin-left:  20px;"> Describe your personality type:
+          <label for="wild">Wild</label>
+          <input type="radio" id="wild" name="personality" value="wild">
+          <label for="wild">Irrational</label>
+          <input type="radio" id="irrational" name="personality" value="irrational">
+          <label for="wild">Calculating</label>
+          <input type="radio" id="calculating" name="personality" value="calculating">
+          </div>
+      
+                    </div>
+          <div class="labeldiv" style="margin-left:  20px;">            
+            
+              <div>Criminal convictions:
+          <label for="Road rage">Road rage</label>
+          <input type="checkbox" id="Road rage" name="crimes" value="Road rage">
+          <label for="wild">Money laundering</label>
+          <input type="checkbox" id="Money laundering" name="crimes" value="Money laundering">
+          <label for="Treason">Treason</label>
+          <input type="checkbox" id="Treason" name="crimes" value="Treason">
+          </div>
+        </div>
+        
+                </div>
+                       <label for="Other">Deepest darkest secrets:</label>
+          <textarea id="Other" name="other" rows="4" cols="50">
+            </textarea>
+            <div class="labeldiv" style="text-align:center;">
+            <br>
+                              <input id="submit" type="submit" value="Submit" style="font-size:1.1em; text-align:center;"> Thank you for giving away your personal data.
+                    </div>
+
+          <div class="labeldiv">
+            
+            
+
+        
+            
+
+             
+       </fieldset>      
+    </form>
+    </main>
+      

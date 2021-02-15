@@ -1,0 +1,59 @@
+body {
+  font-family: 'Londrina Solid', cursive;
+  font-style: bold;
+  font-size: 1.3em;
+}
+
+.fitbg{
+  height: 100vw;
+  width:100vw; 
+  display:absolute;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+   z-index:-1;
+}
+
+.bkimg{
+  display:block;
+  width:100%;
+  opacity:50%; 
+}
+
+.h1 {text-align:center;
+font-size:2em;
+border: solid 8px white;
+  border-radius: 30px;
+  
+  opacity: 100%;
+background-image: linear-gradient(50deg, lightblue, white);
+  margin: 70px 20px 20px 20px;  
+}
+
+p {font-size:0.5em;}
+
+#survey-form {
+  border: solid 2px white;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(250,250,250,70%);
+  font-size:1.5em;
+  
+}
+
+#telephone{
+  size: 150;
+}
+
+.labeldiv{
+  margin-bottom: 30px;
+}
+
+label, select {
+  margin-left: 20px;
+    margin-right: 10px;
+}
+
+input, select {
+    font-size: 1em;
+}
